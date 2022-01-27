@@ -52,7 +52,7 @@ jobs:
           flutter-version: '2.5.3'
       - run: flutter pub get
       - run: flutter clean
-      - run: flutter build ios --debug --no-codesign
+      - run: flutter build ios --release --no-codesign
       - run: cd /Users/runner/work/cicd/cicd/build/ios/iphoneos
       - run: ls
       - run: mkdir -p /Users/runner/work/cicd/cicd/build/ios/iphoneos/Payload
