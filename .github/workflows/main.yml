@@ -83,5 +83,5 @@ jobs:
         with:
           appId: ${{ secrets.FIREBASE_IOS_APP_ID }}
           token: ${{ secrets.FIREBASE_TOKEN }}
-          group: testerIos
+          groups: testerIos
           file: Runner.ipa
